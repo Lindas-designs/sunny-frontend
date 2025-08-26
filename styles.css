@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  /* - Family: [Barlow](https://fonts.google.com/specimen/Barlow)
+- Weights: 600
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700, 900 */
+}
+:root {
+  /* ### Primary */
+  --red-400: hsl(7, 99%, 70%);
+  --yellow-500: hsl(51, 100%, 49%);
+  --green-800: hsl(167, 40%, 24%); /* graphic design text */
+  --blue-800: hsl(198, 62%, 26%); /* photography text*/
+  -green-500: hsl(167, 34%, 41%); /* footer */
+
+  /* ### Neutral */
+
+  --grey-950: hsl(212, 27%, 19%);
+  --grey-600: hsl(213, 9%, 39%);
+  --grey-550: hsl(232, 10%, 55%);
+  --grey-400: hsl(210, 4%, 67%);
+  --white: hsl(0, 100%, 100%);
+}
+.hero {
+  background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
+  width: 100%;
+  height: auto;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px 
+Your users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page*/
