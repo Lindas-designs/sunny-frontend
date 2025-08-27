@@ -26,9 +26,62 @@ html {
   --grey-400: hsl(210, 4%, 67%);
   --white: hsl(0, 100%, 100%);
 }
-.hero {
-  background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
-  width: 100%;
+.header {
+  background-image: url(/images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.page-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 2rem 0rem 2rem;
+  margin-right: 2rem;
+
+  font-family: "Barlow", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+li:last-child {
+  text-transform: uppercase;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 600;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: var(--white);
+  text-decoration: none;
+  transition: all 0.3s;
+  padding: 1.5rem 2.5rem;
+}
+.main-nav-link:hover {
+  background-color: hsl(205, 79%, 78%);
+  border-radius: 6rem;
+}
+.main-nav-link:active {
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  align-items: center;
+  gap: 5rem;
+  margin-top: 8rem;
+}
+h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-family: "Fraunces", sans-serif;
+  letter-spacing: 0.75rem;
+}
+.arrow-icon {
+  margin-top: 3rem;
+  width: 2rem;
   height: auto;
 }
 .attribution {
