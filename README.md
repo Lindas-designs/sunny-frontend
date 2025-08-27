@@ -14,6 +14,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [ tag and  usage](#-tag-and--usage)
+    - [Aspect ratio usecase](#aspect-ratio-usecase)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -67,6 +68,21 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### <a> tag and <button> usage
 
 In general, use an <a> tag to handle navigation and a <button> to handle form submission and any other actions.
+
+### Aspect ratio usecase
+
+By adding aspect-ratio on grid items it is possible to change their height by maintaining the specified width-to-height ratio (aspect ratio).
+
+```css
+.section {
+  aspect-ratio: 1.3;
+  /* will make height a bit shorter than the width */
+}
+.img-container {
+  aspect-ratio: 1.3;
+  /* will make height a bit shorter than the width */
+}
+```
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
