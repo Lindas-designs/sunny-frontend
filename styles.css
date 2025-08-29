@@ -83,7 +83,8 @@ ul {
 .main-nav-link:active {
   box-shadow: inset 0rem 0rem 0.5rem var(--grey-950);
 }
-.main-nav-link:focus-visible {
+
+a:focus-visible {
   outline: 0.4rem solid var(--red-400);
   border-radius: 6rem;
 }
@@ -317,13 +318,33 @@ h3 {
   padding-right: 2rem;
   padding-left: 1rem;
 }
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-choice:link,
+.footer-choice:visited,
+.footer-logo:link,
+.footer-logo:visited {
+  text-decoration: none;
+  color: var(--green-500);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.footer-choice:hover,
+.footer-logo:hover {
+  box-shadow: 0rem 0rem 0.8rem 0.5rem var(--green-500);
+}
+.footer-choice:active,
+.footer-logo:active {
+  box-shadow: inset 0rem 0rem 0.8rem 0.5rem var(--green-800);
+}
 .attribution {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
   font-size: 1rem;
   text-align: center;
+  background-color: var(--green-300);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
