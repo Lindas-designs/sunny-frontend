@@ -15,6 +15,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
     - [What I learned](#what-i-learned)
     - [ tag and  usage](#-tag-and--usage)
     - [Aspect ratio usecase](#aspect-ratio-usecase)
+    - [Testimonial syntax](#testimonial-syntax)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -82,6 +83,25 @@ By adding aspect-ratio on grid items it is possible to change their height by ma
   aspect-ratio: 1.3;
   /* will make height a bit shorter than the width */
 }
+```
+
+### Testimonial syntax
+
+```html
+<figure class="testimonial-2">
+  <img
+    class="img-testimonial"
+    alt="image-thomas"
+    src="/images/image-thomas.jpg"
+  />
+  <blockquote>
+    Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+    success made it a satisfying and enjoyable experience.
+  </blockquote>
+  <!-- here span or p element can be used -->
+  <span class="testimonial-name">Thomas S.</span>
+  <span class="testimonial-job">Chief Operating Officer</span>
+</figure>
 ```
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
